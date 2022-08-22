@@ -202,6 +202,7 @@ nav {
   padding: 40px;
 }
 .work-card img {
+  margin: auto !important;
   height: 90%;
   border-radius: 10px;
   object-fit: cover;
