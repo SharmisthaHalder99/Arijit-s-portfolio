@@ -363,6 +363,21 @@ nav {
   transform: translate(-50%, -50%);
 }
 @media screen and (max-width: 767px) {
+  .footer-links h3 {
+    font-size: 22px;
+  }
+  .quick-links h3 {
+    font-size: 22px;
+  }
+  .quick-links a {
+    font-size: 16px;
+  }
+  .footer-links a {
+    font-size: 16px;
+  }
+  .form {
+    width: 80%;
+  }
   .heading {
     font-size: 24px;
     white-space: pre;
@@ -373,7 +388,7 @@ nav {
   }
   .footer {
     flex-direction: column;
-    padding: 10vw 20vw;
+    padding: 10vw 14vw;
     gap: 20px;
   }
   .footer-logo {
@@ -414,11 +429,11 @@ nav {
     text-align: center;
   }
   .contact-btn {
-    font-size: 16px;
+    font-size: 20px;
     padding: 14px 20px;
   }
   .hire-btn {
-    font-size: 16px;
+    font-size: 20px;
     padding: 14px 20px;
   }
   .top-part h3 {
